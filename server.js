@@ -48,7 +48,7 @@ const UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36";
 const OB_URL = "http://127.0.0.1:18001/mcp";  // Ombre-Brain 记忆库
 const OB_TOKEN = process.env.OB_TOKEN || "";
 const GALATEA_URL = "https://galatea.abysslumina.com/mcp";
-const GALATEA_TOKEN = process.env.GALATEA_TOKEN || "gg_nj2lRj6A84VrPvycdireDyGAaT7RduOUBHYEXuN-uGM";
+const GALATEA_TOKEN = process.env.GALATEA_TOKEN || "";
 
 // ─── Ombre-Brain 记忆库状态 ────────────────────────────────────
 let obSessionId = null;
